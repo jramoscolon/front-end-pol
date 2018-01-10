@@ -53,9 +53,24 @@ h3, h4 {
     border-top-left-radius: 0;
 }
 
-.bg-2 {
-  background: red;
+#official {
+  background: #DBD8D1;
 }
+
+.official-logo {
+    margin-bottom: 20px;
+}
+
+.official-logo a:link {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.official-logo a:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
 .bg-3 {
   background: gray;
 }
