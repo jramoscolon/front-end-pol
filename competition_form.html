@@ -1,0 +1,177 @@
+<html>
+	<html lang="en">
+	<head>
+	  <title>Pol: Competition</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	  <link rel="stylesheet" type="text/css" href="css/styles.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<form>
+				<h2>School Competition Form</h2>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						General Information
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="form-group col-md-12">
+							  <label for="compName">School Name</label>
+							  <input type="text" class="form-control" id="compName" placeholder="Enter school name">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="compDate">Competition Date</label>
+							  <input type="date" class="form-control" id="compDate" placeholder="Enter the date of competition">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="compTime">Time</label>
+							  <input type="text" class="form-control" id="compTime" placeholder="Enter the time of the competition (e.g. 8:00 AM)">
+							</div>
+
+							<div class="form-group col-md-12">
+							  <label for="venue">Venue</label>
+							  <input type="text" class="form-control" id="venue" placeholder="Enter where the competition was held">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="totalNum">Total number of students in the program</label>
+							  <input type="text" class="form-control" id="totalNum" placeholder="Enter the total number">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="totalPart">Total number of students that participated</label>
+							  <input type="text" class="form-control" id="totalPart" placeholder="Enter the total number">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="personnel">Total number of school personnel involved in the program</label>
+							  <input type="text" class="form-control" id="personnel" placeholder="Enter the total number">
+							</div>
+
+
+							
+						</div><!-- row ends -->
+					</div><!-- End of panel body -->
+				</div><!-- School Information panel ends -->
+
+				
+
+				<!-- Judge 1 Info -->
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Judge 1
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="form-group col-md-12">
+						  <label for="judge1">Judge's Name</label>
+						  <input type="text" class="form-control" id="judge1" placeholder="Enter the Judge's Name">
+						</div>
+
+						<div class="form-group col-md-6">
+						  <label for="judgeTel1">Telephone</label>
+						  <input type="text" class="form-control" id="judgeTel1" placeholder="Enter the Judge's Telephone Number">
+						</div>
+
+						<div class="form-group col-md-6">
+						  <label for="judgeEmail1">Email address</label>
+						  <input type="email" class="form-control" id="judgeEmail1" placeholder="judge@example.com">
+						</div>
+					</div>
+						</div><!-- end of row -->
+				</div>
+
+				<!-- Judge 2 Info -->
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Judge 2
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="form-group col-md-12">
+						  <label for="judge2">Judge's Name</label>
+						  <input type="text" class="form-control" id="judge2" placeholder="Enter the Judge's Name">
+						</div>
+
+						<div class="form-group col-md-6">
+						  <label for="judgeTel2">Telephone</label>
+						  <input type="text" class="form-control" id="judgeTel2" placeholder="Enter the Judge's Telephone Number">
+						</div>
+
+						<div class="form-group col-md-6">
+						  <label for="judgeEmail2">Email address</label>
+						  <input type="email" class="form-control" id="judgeEmail2" placeholder="judge@example.com">
+						</div>
+					</div>
+						</div><!-- end of row -->
+				</div>
+
+				<!-- Judge 3 Info -->
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Judge 3
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="form-group col-md-12">
+						  <label for="judge3">Judge's Name</label>
+						  <input type="text" class="form-control" id="judge3" placeholder="Enter the Judge's Name">
+						</div>
+
+						<div class="form-group col-md-6">
+						  <label for="judgeTel3">Telephone</label>
+						  <input type="text" class="form-control" id="judgeTel3" placeholder="Enter the Judge's Telephone Number">
+						</div>
+
+						<div class="form-group col-md-6">
+						  <label for="judgeEmail3">Email address</label>
+						  <input type="email" class="form-control" id="judgeEmail3" placeholder="judge@example.com">
+						</div>
+					</div>
+						</div><!-- end of row -->
+				</div>
+
+				<!-- The following fields are hidden to users and should ONLY be visible and editable by a site admin-level user. -->
+				<div class="panel panel-danger">
+					<div class="panel-heading">
+						Administrators Only
+					</div>
+					<div class="panel-body">
+						<p>Sent Required Photos?</p>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="photosRadio" id="yesPhotosRadio" value="yes">
+							<label class="form-check-label" for="yesPhotosRadio">Yes</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="photosRadio" id="noPhotosRadio" value="no">
+							<label class="form-check-label" for="noPhotosRadio">No</label>
+						</div>
+
+						<p>Sent Required Certifications?</p>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="certsRadio" id="yesCertsRadio" value="yes">
+							<label class="form-check-label" for="yesCertsRadio">Yes</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="certsRadio" id="noCertsRadio" value="no">
+							<label class="form-check-label" for="noCertsRadio">No</label>
+						</div>
+					</div>
+				</div>
+				<!-- End of fields hidden to user -->
+				<button type="submit" class="btn btn-primary">Register</button>
+				<button type="" class="btn btn-primary">Cancel</button>
+			</form>
+		</div>
+		
+	</body>
+</html>

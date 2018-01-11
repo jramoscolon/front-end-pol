@@ -1,0 +1,254 @@
+<html>
+	<html lang="en">
+	<head>
+	  <title>Pol: Results</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	  <link rel="stylesheet" type="text/css" href="css/styles.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<form>
+				<!-- This was initially called Winners Form -->
+				<h2>Competition Results</h2>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Information about the Winner
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="form-group col-md-6">
+							  <label for="winnerName">Winner's Name</label>
+							  <input type="text" class="form-control" id="winnerName" placeholder="Enter the Winner's name">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="winGrade">Grade</label>
+							  <input type="text" class="form-control" id="winGrade" placeholder="Enter the Winner's grade">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="winAddress">Address</label>
+							  <input type="text" class="form-control" id="winAddress" placeholder="Enter the Winner's address">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="winCity">City</label>
+							  <input type="text" class="form-control" id="winCity" placeholder="City">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="winZip">Zip Code</label>
+							  <input type="text" class="form-control" id="winZip" placeholder="Zip Code">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="winTele">Winner's Telephone</label>
+							  <input type="text" class="form-control" id="winTele" placeholder="Enter the Winner's Telephone">
+							</div>
+
+							<div class="form-group col-md-12">
+							  <label for="winParentName">Parent's Name</label>
+							  <input type="text" class="form-control" id="winParentName" placeholder="Enter the Parent's or Legal Guardian's name">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="winParentTel">Parent's Telephone</label>
+							  <input type="text" class="form-control" id="winParentTel" placeholder="Enter the Parent's or Legal Guardian's Telephone">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="winSizeSelect">Winner's T-shirt Size</label>
+							    <select class="form-control" id="winSizeSelect">
+							      <option>Small</option>
+							      <option>Medium</option>
+							      <option>Large</option>
+							      <option>X-Large</option>
+							    </select>
+							</div>
+
+							<p class="col-md-12">Need Accommodations?</p>
+							<div class="form-check col-md-12">
+								<input class="form-check-input" type="radio" name="winNeedsRadio" id="yesWinNeedsRadio" value="yes">
+								<label class="form-check-label" for="yesWinNeedsRadio">Yes</label>
+							</div>
+							<div class="form-check col-md-12">
+								<input class="form-check-input" type="radio" name="winNeedsRadio" id="noWinNeedsRadio" value="no">
+								<label class="form-check-label" for="noWinNeedsRadio">No</label>
+							</div>
+
+							<div class="form-group col-md-12">
+							  <!-- <label for="comment">Comments:</label> -->
+  							<textarea class="form-control" rows="5" id="comment" placeholder="Please specify accommodation needs if required"></textarea>
+							</div>
+							
+						</div><!-- row ends -->
+					</div><!-- End of panel body -->
+				</div><!-- School Information panel ends -->
+
+				<!-- The following fields are hidden to users and should ONLY be visible and editable by a site admin-level user. -->
+				<div class="panel panel-danger">
+					<div class="panel-heading">
+						Administrators Only
+					</div>
+					<div class="panel-body">
+						<p>Attended Rehersal</p>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="winRehersalRadio" id="yesWinRehersal" value="yes">
+							<label class="form-check-label" for="yesWinRehersal">Yes</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="winRehersalRadio" id="noWinRehersal" value="no">
+							<label class="form-check-label" for="noWinRehersal">No</label>
+						</div>
+
+						<p>Attended Main Competition</p>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="winMainRadio" id="yesWinMainRadio" value="yes">
+							<label class="form-check-label" for="yesWinMainRadio">Yes</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="winMainRadio" id="noWinMainRadio" value="no">
+							<label class="form-check-label" for="noWinMainRadio">No</label>
+						</div>
+
+						<p>Sent Release Form</p>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="winRelRadio" id="yesWinRelRadio" value="yes">
+							<label class="form-check-label" for="yesWinRelRadio">Yes</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="winRelRadio" id="noWinRelRadio" value="no">
+							<label class="form-check-label" for="noWinRelRadio">No</label>
+						</div>
+
+					</div>
+				</div>
+				<!-- End of fields hidden to user -->
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Information about the Runner-up
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="form-group col-md-6">
+							  <label for="runName">Runner-up's Name</label>
+							  <input type="text" class="form-control" id="runName" placeholder="Enter the Runner-Up's name">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="runGrade">Grade</label>
+							  <input type="text" class="form-control" id="runGrade" placeholder="Enter the Runner-Up's grade">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="runAddress">Address</label>
+							  <input type="text" class="form-control" id="runAddress" placeholder="Enter the Runner-Up's address">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="runCity">City</label>
+							  <input type="text" class="form-control" id="runCity" placeholder="City">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="runZip">Zip Code</label>
+							  <input type="text" class="form-control" id="runZip" placeholder="Zip Code">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="runTele">Runner-Up's Telephone</label>
+							  <input type="text" class="form-control" id="runTele" placeholder="Enter the Runner-Up's Telephone">
+							</div>
+
+							<div class="form-group col-md-12">
+							  <label for="runParent">Parent's Name</label>
+							  <input type="text" class="form-control" id="runParent" placeholder="Enter the Parent's or Legal Guardian's name">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="runParentTele">Parent's Telephone</label>
+							  <input type="text" class="form-control" id="runParentTele" placeholder="Enter the Parent's or Legal Guardian's Telephone">
+							</div>
+
+							<div class="form-group col-md-6">
+							  <label for="runSizeSelect">Runner-Up's T-shirt Size</label>
+							    <select class="form-control" id="runSizeSelect">
+							      <option>Small</option>
+							      <option>Medium</option>
+							      <option>Large</option>
+							      <option>X-Large</option>
+							    </select>
+							</div>
+
+							<p class="col-md-12">Need Accommodations?</p>
+							<div class="form-check col-md-12">
+								<input class="form-check-input" type="radio" name="runNeeds" id="yesrunNeedsRadio" value="yes">
+								<label class="form-check-label" for="yesrunNeedsRadio">Yes</label>
+							</div>
+							<div class="form-check col-md-12">
+								<input class="form-check-input" type="radio" name="runNeeds" id="norunNeedsRadio" value="no">
+								<label class="form-check-label" for="norunNeedsRadio">No</label>
+							</div>
+
+							<div class="form-group col-md-12">
+  							<textarea class="form-control" rows="5" id="comment2" placeholder="Please specify accommodation needs if required"></textarea>
+							</div>
+							
+						</div><!-- row ends -->
+					</div><!-- End of panel body -->
+				</div><!-- School Information panel ends -->
+
+				<!-- The following fields are hidden to users and should ONLY be visible and editable by a site admin-level user. -->
+				<div class="panel panel-danger">
+					<div class="panel-heading">
+						Administrators Only
+					</div>
+					<div class="panel-body">
+						<p>Attended Rehersal</p>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="runRehersalRadio" id="yesRunRehersal" value="yes">
+							<label class="form-check-label" for="yesRunRehersal">Yes</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="runRehersalRadio" id="noRunRehersal" value="no">
+							<label class="form-check-label" for="noRunRehersal">No</label>
+						</div>
+
+						<p>Attended Main Competition</p>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="runMainRadio" id="yesRunMainRadio" value="yes">
+							<label class="form-check-label" for="yesRunMainRadio">Yes</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="runMainRadio" id="noRunMainRadio" value="no">
+							<label class="form-check-label" for="noRunMainRadio">No</label>
+						</div>
+
+						<p>Sent Release Form</p>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="runRelRadio" id="yesRunRelRadio" value="yes">
+							<label class="form-check-label" for="yesWRunelRadio">Yes</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="runRelRadio" id="noRunRelRadio" value="no">
+							<label class="form-check-label" for="noRunRelRadio">No</label>
+						</div>
+
+					</div>
+				</div>
+				<!-- End of fields hidden to user -->
+				<button type="submit" class="btn btn-primary">Register</button>
+				<button type="" class="btn btn-primary">Cancel</button>
+			</form>
+		</div>
+		
+	</body>
+</html>
