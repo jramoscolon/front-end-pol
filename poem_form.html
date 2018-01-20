@@ -29,47 +29,51 @@
 					<div class="panel-body">
 						<div class="row">
 							<div class="form-group col-md-6">
-							  <label for="authorName">Author's Name</label>
+							  <label for="authorName">Author's Name<span style="color:red;">*</span></label>
 							  <input type="text" class="form-control" id="authorName" placeholder="Enter the Author's name" required>
 							</div>
 
 							<div class="form-group col-md-6">
-							  <label for="poemTitle">Poem Title</label>
+							  <label for="poemTitle">Poem Title<span style="color:red;">*</span></label>
 							  <input type="text" class="form-control" id="poemTitle" placeholder="Enter the title of the poem" required>
 							</div>
 
 							<!-- These will be links that the user will copy from another source and paste here -->
 							<div class="form-group col-md-6">
-							  <label for="poemUrl1">Poem Link</label>
+							  <label for="poemUrl1">Poem Link<span style="color:red;">*</span></label>
 							  <input type="text" class="form-control" id="poemUrl1" placeholder="Paste the selected poem's web link here" required>
 							</div>
 
 							<div class="form-group col-md-6">
-							  <label for="anthologyUrl1">Anthology Link</label>
+							  <label for="anthologyUrl1">Anthology Link<span style="color:red;">*</span></label>
 							  <input type="text" class="form-control" id="anthologyUrl1" placeholder="Paste the Anthology's web link here" required>
 							</div>
 
-							<p class="col-md-12">Choose the category (you can choose up to two)</p>
-							<div class="form-check col-md-12">
-							  <input class="form-check-input" type="checkbox" value="" id="linesCheck1">
-							  <label class="form-check-label" for="linesCheck1">
-							    25 lines or less
-							  </label>
+							<div class="form-group col-md-12">
+								<label for="">Choose the category (you can choose up to two)</label>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="linesCheck1">
+								  <label class="form-check-label" for="linesCheck1">
+								    25 lines or less
+								  </label>
+								</div>
+
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="centuryCheck1">
+								  <label class="form-check-label" for="centuryCheck1">
+								    Before 20th Century
+								  </label>
+								</div>
+
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="freeCheck1">
+								  <label class="form-check-label" for="freeCheck1">
+								    Free Selection
+								  </label>
+								</div>
 							</div>
 
-							<div class="form-check col-md-12">
-							  <input class="form-check-input" type="checkbox" value="" id="centuryCheck1">
-							  <label class="form-check-label" for="centuryCheck1">
-							    Before 20th Century
-							  </label>
-							</div>
-
-							<div class="form-check col-md-12">
-							  <input class="form-check-input" type="checkbox" value="" id="freeCheck1">
-							  <label class="form-check-label" for="freeCheck1">
-							    Free Selection
-							  </label>
-							</div>
+							
 						</div><!-- row ends -->
 					</div><!-- End of panel body -->
 				</div><!-- Poem 1 info ends -->
@@ -82,47 +86,50 @@
 					<div class="panel-body">
 						<div class="row">
 							<div class="form-group col-md-6">
-							  <label for="authorName2">Author's Name</label>
+							  <label for="authorName2">Author's Name<span style="color:red;">*</span></label>
 							  <input type="text" class="form-control" id="authorName2" placeholder="Enter the Author's name" required>
 							</div>
 
 							<div class="form-group col-md-6">
-							  <label for="poemTitle2">Poem Title</label>
+							  <label for="poemTitle2">Poem Title<span style="color:red;">*</span></label>
 							  <input type="text" class="form-control" id="poemTitle2" placeholder="Enter the title of the poem" required>
 							</div>
 
 							<!-- These will be links that the user will copy from another source and paste here -->
 							<div class="form-group col-md-6">
-							  <label for="poemUrl2">Poem Link</label>
+							  <label for="poemUrl2">Poem Link<span style="color:red;">*</span></label>
 							  <input type="text" class="form-control" id="poemUrl2" placeholder="Paste the selected poem's web link here" required>
 							</div>
 
 							<div class="form-group col-md-6">
-							  <label for="anthologyUrl2">Anthology Link</label>
+							  <label for="anthologyUrl2">Anthology Link<span style="color:red;">*</span></label>
 							  <input type="text" class="form-control" id="anthologyUrl2" placeholder="Paste the Anthology's web link here" required>
 							</div>
 
-							<p class="col-md-12">Choose the category (you can choose up to two)</p>
-							<div class="form-check col-md-12">
-							  <input class="form-check-input" type="checkbox" value="" id="linesCheck2">
-							  <label class="form-check-label" for="linesCheck2">
-							    25 lines or less
-							  </label>
-							</div>
+							<div class="form-group col-md-12">
+								<label for="linesCheck2">Choose the category (you can choose up to two)</label>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="linesCheck2">
+								  <label class="form-check-label" for="linesCheck2">
+								    25 lines or less
+								  </label>
+								</div>
 
-							<div class="form-check col-md-12">
-							  <input class="form-check-input" type="checkbox" value="" id="centuryCheck2">
-							  <label class="form-check-label" for="centuryCheck2">
-							    Before 20th Century
-							  </label>
-							</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="centuryCheck2">
+								  <label class="form-check-label" for="centuryCheck2">
+								    Before 20th Century
+								  </label>
+								</div>
 
-							<div class="form-check col-md-12">
-							  <input class="form-check-input" type="checkbox" value="" id="freeCheck2">
-							  <label class="form-check-label" for="freeCheck2">
-							    Free Selection
-							  </label>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="freeCheck2">
+								  <label class="form-check-label" for="freeCheck2">
+								    Free Selection
+								  </label>
+								</div>
 							</div>
+							
 						</div><!-- row ends -->
 					</div><!-- End of panel body -->
 				</div><!-- Poem 2 info ends -->
@@ -135,47 +142,50 @@
 					<div class="panel-body">
 						<div class="row">
 							<div class="form-group col-md-6">
-							  <label for="authorName3">Author's Name</label>
+							  <label for="authorName3">Author's Name<span style="color:red;">*</span></label>
 							  <input type="text" class="form-control" id="authorName3" placeholder="Enter the Author's name" required>
 							</div>
 
 							<div class="form-group col-md-6">
-							  <label for="poemTitle3">Poem Title</label>
+							  <label for="poemTitle3">Poem Title<span style="color:red;">*</span></label>
 							  <input type="text" class="form-control" id="poemTitle3" placeholder="Enter the title of the poem" required>
 							</div>
 
 							<!-- These will be links that the user will copy from another source and paste here -->
 							<div class="form-group col-md-6">
-							  <label for="poemUrl3">Poem Link</label>
+							  <label for="poemUrl3">Poem Link<span style="color:red;">*</span></label>
 							  <input type="text" class="form-control" id="poemUrl3" placeholder="Paste the selected poem's web link here" required>
 							</div>
 
 							<div class="form-group col-md-6">
-							  <label for="anthologyUrl3">Anthology Link</label>
+							  <label for="anthologyUrl3">Anthology Link<span style="color:red;">*</span></label>
 							  <input type="text" class="form-control" id="anthologyUrl3" placeholder="Paste the Anthology's web link here" required>
 							</div>
 
-							<p class="col-md-12">Choose the category (you can choose up to two)</p>
-							<div class="form-check col-md-12">
-							  <input class="form-check-input" type="checkbox" value="" id="linesCheck3">
-							  <label class="form-check-label" for="linesCheck3">
-							    25 lines or less
-							  </label>
-							</div>
+							<div class="form-group col-md-12">
+								<label for="">Choose the category (you can choose up to two)</label>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="linesCheck3">
+								  <label class="form-check-label" for="linesCheck3">
+								    25 lines or less
+								  </label>
+								</div>
 
-							<div class="form-check col-md-12">
-							  <input class="form-check-input" type="checkbox" value="" id="centuryCheck3">
-							  <label class="form-check-label" for="centuryCheck3">
-							    Before 20th Century
-							  </label>
-							</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="centuryCheck3">
+								  <label class="form-check-label" for="centuryCheck3">
+								    Before 20th Century
+								  </label>
+								</div>
 
-							<div class="form-check col-md-12">
-							  <input class="form-check-input" type="checkbox" value="" id="freeCheck3">
-							  <label class="form-check-label" for="freeCheck3">
-							    Free Selection
-							  </label>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="freeCheck3">
+								  <label class="form-check-label" for="freeCheck3">
+								    Free Selection
+								  </label>
+								</div>
 							</div>
+							
 						</div><!-- row ends -->
 					</div><!-- End of panel body -->
 				</div><!-- Poem 3 info ends -->
@@ -202,8 +212,7 @@
 				</div>
 				<!-- End of fields hidden to user -->
 
-				<button type="submit" class="btn btn-primary">Register</button>
-				<button type="" class="btn btn-primary">Cancel</button>
+				<button type="submit" class="btn btn-primary">Submit</button>
 			</form>
 		</div><!-- container -->
 		
