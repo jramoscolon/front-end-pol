@@ -1,0 +1,71 @@
+<html>
+	<html lang="en">
+  <head>
+	  <title>POL: Poem Index</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	  <link rel="stylesheet" type="text/css" href="css/styles.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<!-- This view should only be visible to Administrators -->
+	<!-- Combines several forms. Each th is commented -->
+	<body>
+		<div class="container">
+			<!-- <button class="btn btn-lg pull-right">Search</button> -->
+			<form class="navbar-form pull-right" role="search">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+            <div class="input-group-btn">
+                <button class="btn btn-default btn-sm" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+        </div>
+        </form>
+			<h3>All Poems Index</h3>
+			<br>
+			<div class="table-responsive">
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th scope="col"><nobr>School Name</nobr></th><!-- This will be pulled from the Registration form -->
+							<th scope="col"><nobr>Winner's Name</nobr></th><!-- This will be pulled from the Competition Results Form -->
+							<th scope="col"><nobr>Poem #1 Author</nobr></th><!-- This will be pulled from the Poem Registration Form/Poem #1/Author's Name -->
+							<th scope="col"><nobr>Poem #1 Title</nobr></th><!-- This will be pulled from the Poem Registration Form/Poem #1/Poem Title -->
+							<th scope="col"><nobr>Poet #1 Link</nobr></th><!-- This will be pulled from the Poem Registration Form/Poem #1/Poem Link -->
+							<th scope="col"><nobr>Poem #2 Author</nobr></th><!-- This will be pulled from the Poem Registration Form/Poem #2/Author's Name -->
+							<th scope="col"><nobr>Poem #2 Title</nobr></th><!-- This will be pulled from the Poem Registration Form/Poem #2/Poem Title -->
+							<th scope="col"><nobr>Poet #2 Link</nobr></th><!-- This will be pulled from the Poem Registration Form/Poem #2/Poem Link -->
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href="">Model School One</a></td>
+							<td>Johnny Rocket</td>
+							<td>William Shakespeare</td>
+							<td>The Phoenix and the Turtle</td>
+							<td><a href"https://en.wikipedia.org/wiki/The_Phoenix_and_the_Turtle">https://en.wikipedia.org/wiki/The_Phoenix_and_the_Turtle</a></td>
+							<td>Lord Byron</td>
+							<td>Don Juan</td>
+							<td><a href="https://en.wikipedia.org/wiki/Don_Juan_(Byron)">https://en.wikipedia.org/wiki/Don_Juan_(Byron)</a></td>
+							<td><!-- Fixed buttons so they're now inline -->
+								<div style="white-space: nowrap">
+									<button class="btn user-btn-default">Open</button>
+									<button class="btn user-btn-default">Edit</button>
+									<button class="btn user-btn-danger">Delete</button>
+								</div>
+							</td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</div>
+			
+			
+		</div><!-- Container ends -->
+		
+  
+	</body>
+</html>
